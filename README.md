@@ -22,7 +22,7 @@ Traget Arch
 
 Now we gonna get CLSID for our target machine
 
-[Resource] (https://github.com/ohpe/juicy-potato/tree/master/CLSID) 
+[Resource](https://github.com/ohpe/juicy-potato/tree/master/CLSID) 
 
 Here my traget is Windows 7 Professional i can go for Windows 7 Enterprise, copy all the CLSID from CLSID.list file.
 
@@ -30,7 +30,7 @@ Open your favourite editor and paste all the CLSID and name the file CLSID.list.
 
 Our target machine is x32-bit arch. Grab the Juicy Potato binary for 32-bit os.
 
-[Resource] (https://github.com/k4sth4/Juicy-Potato) 
+[Resource](https://github.com/k4sth4/Juicy-Potato) 
 
 We gonna make a test.bat file which gonna help you to execute the jp32.exe and find you a valid CLSID for attack.
 
