@@ -55,7 +55,7 @@ if "!RET!" == "1" set /a port=port+1
 Note: C:\\Users\\Bob\\Desktop\\CLSID.list and C:\\Users\\Bob\\Desktop\\jp32.exe are the place where we gonna upload our CLSID.list file and jp32.exe (juicy potato 32-bit).
 
 
-# Using Powershell
+## Using Powershell
 Next we gonna create shell.bat file for our reverse ahell.
 
 ```markdown
@@ -69,7 +69,7 @@ NOTE: '10.10.x.x',1234 is the attacker IP and listening port for our reverse she
 
 
 
-# Using msfvenom or nc.exe binary
+## Using msfvenom or nc.exe binary
 generate a shell.exe binary using msfvenom.
 
 
