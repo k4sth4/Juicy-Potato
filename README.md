@@ -93,7 +93,7 @@ Now we've found valid CLSID for SYSTEM we can use that CLSID and get system shel
 
 # Reverse Shell
 
-# Using POwershell shell.bat
+# Using Powershell shell.bat
 
 ```markdown
 
