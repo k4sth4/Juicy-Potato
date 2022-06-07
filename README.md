@@ -28,7 +28,7 @@ Here my traget is Windows 7 Professional i can go for Windows 7 Enterprise, copy
 
 Open your favourite editor and paste all the CLSID and name the file CLSID.list.
 
-Our target machine is x32-bit arch. Grab the Juicy Potato binary for 32-bit os.
+Our target machine is 32-bit arch. Grab the Juicy Potato binary for 32-bit os.
 
 [Resource](https://github.com/k4sth4/Juicy-Potato) 
 
